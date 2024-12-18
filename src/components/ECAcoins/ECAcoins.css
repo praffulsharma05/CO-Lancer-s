@@ -1,0 +1,67 @@
+.eca-coins-page {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box ;
+    
+}
+
+.eca-header {
+    background-color: #7c4de0;
+    color: rgb(254, 254, 254);
+    padding: 20px;
+    text-align: center;
+}
+
+.eca-info, .eca-profile, .eca-benefits {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.eca-profile .profile-card {
+    background-color: #f3f9f5;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(244, 243, 243, 0.849);
+}
+
+.profile-actions {
+    margin-top: 30px;
+    
+}
+
+.earn-coins-btn, .convert-credits-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: rgb(15, 19, 16);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.earn-coins-btn {
+    background-color: #471fc9;
+    color: white;
+}
+
+.convert-credits-btn {
+    background-color: #2269a8;
+    color: white;
+}
+
+.earn-coins-btn:hover {
+    background-color: #6239de;
+}
+
+.convert-credits-btn:hover {
+    background-color: #172ba2;
+}
+
+.eca-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}

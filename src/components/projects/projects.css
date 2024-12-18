@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 91%);
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: black;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    
+  }
+  
+  /* Featured Projects Section */
+  .bg-primary {
+    background-color: #4d46c8;
+  }
+  
+  .bg-primary .card-body {
+    background-color: #4d46c8;
+    color:rgb(89, 170, 149);
+    padding: 1.5rem;
+  }
+  
+  .btn-light {
+    background-color: #07b966;
+    color: #136a07;
+    border: 1px solid #ade2c7;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .btn-light:hover {
+    background-color: #044e04;
+    color: #036025;
+  }
+  
+  /* Our Work Section */
+  .bg-light {
+    background-color: #1b0e8d;
+  }
+  
+  .bg-light .card-body {
+    background-color: rgb(78, 47, 200);
+    color: #0f091d;
+    padding: 1.5rem;
+  }
+  
+  .btn-primary {
+    background-color: #79a9e0;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2f6eb1;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 2rem;
+    }
+  
+    .card img {
+      height: 150px;
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  }
+  

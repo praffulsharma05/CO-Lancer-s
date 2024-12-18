@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Hover effect on the buttons */
+.hover-effect:hover {
+  background-color: #4780bc;
+  color: rgb(208, 204, 204);
+}
+
+/* Hover effect on the card component */
+.hover-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(18, 2, 6, 0);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect on table rows */
+.hover-row:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Optionally, for better transitions */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+
+
+/** footer **/
+.footer {
+  margin-top: 15px;
+
+}
+
+.foot-panel1 {
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+
+}
+
+.foot-panel2 {
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #222f3d;
+}
+
+.foot-panel3 {
+  background-color: #222f3d;
+  color: rgb(36, 25, 25);
+  border-top: 0.5px solid rgb(16, 14, 14);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+ 
+
+.panel4 {
+  background-color: #222f3d;
+  color: white;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pages {
+  padding-top: 5px;
+}
+
+.copyright {
+
+  padding-top: 5px;
+}
+
+
+
+
+ 
+
+ 

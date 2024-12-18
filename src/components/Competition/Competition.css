@@ -1,0 +1,83 @@
+.competition-section {
+  padding: 20px;
+  background-color: rgb(67, 54, 247);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.competition-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: hsl(0, 22%, 95%);
+}
+
+.competition-section p {
+  color: rgb(234, 232, 232);
+  font-size: 16px;
+}
+
+.countdown {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #9dd51a;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e2e4e6;
+  color: rgb(15, 8, 8);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #417dba;
+}
+
+.competition-info  {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+}
+
+.info-box {
+  background-color: #ebeaef;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #fcfcfcf8;
+  width: 30%;
+}
+
+.info-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.participant-count {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #2ecc71;
+}
+
+.social-share {
+  margin-top: 30px;
+}
+
+.social-share p {
+  font-size: 16px;
+  color: hsl(0, 17%, 95%);
+}
+
+.social-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}

@@ -1,0 +1,234 @@
+ /* MessageBox.css
+.message-box-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.message-box-toggle {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.message-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.messages-list {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.message-item {
+  margin-bottom: 10px;
+}
+
+.message-item.client {
+  text-align: left;
+}
+
+.message-item.freelancer {
+  text-align: right;
+}
+
+.message-text {
+  background-color: #f1f1f1;
+  padding: 8px;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.message-input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-input-container textarea {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.message-input-container button {
+  width: 15%;
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+*/
+
+/* MessageBox.css */
+.message-box-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.message-box-toggle {
+  background-color: #1e90ff; /* Lively blue color */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+
+.message-box-toggle:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+.message-box {
+  background-color: #f7f7f7; /* Soft grey background */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 320px;
+  max-height: 400px;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.search-bar input:focus {
+  border-color: #1e90ff; /* Highlight border on focus */
+  outline: none;
+}
+
+.messages-list {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message-item {
+  margin-bottom: 12px;
+}
+
+.message-item.client {
+  text-align: left;
+}
+
+.message-item.freelancer {
+  text-align: right;
+}
+
+.message-text {
+  background-color: #f1f1f1;
+  padding: 12px;
+  border-radius: 10px;
+  max-width: 80%;
+  font-size: 14px;
+  line-height: 1.4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+}
+
+.message-item.client .message-text {
+  background-color: #e6f7ff; /* Light blue for client messages */
+}
+
+.message-item.freelancer .message-text {
+  background-color: #d1f7c4; /* Soft green for freelancer messages */
+}
+
+.message-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.message-input-container textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: none;
+  background-color: #fff;
+}
+
+.message-input-container textarea:focus {
+  border-color: #1e90ff;
+  outline: none;
+}
+
+.message-input-container button {
+  width: 18%;
+  padding: 12px;
+  background-color: #28a745; /* Fresh green color for Send button */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.message-input-container button:hover {
+  background-color: #218838; /* Darker green when hovered */
+}
+
+.message-input-container button:disabled {
+  background-color: #ccc; /* Grey out button when disabled */
+  cursor: not-allowed;
+}
+
+.message-box .message-input-container {
+  margin-bottom: 10px;
+}
+
+.message-box .message-item {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.message-box .message-input-container button:disabled {
+  background-color: #dcdcdc;
+  cursor: not-allowed;
+}
+
